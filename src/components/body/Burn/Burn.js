@@ -7,7 +7,7 @@ export const Burn = () => {
   return (
     <div className='flex flex-col m-5 h-full '>
         <Link to={'/signIn'} className=' text-right text-blue-800 text-lg underline'>skip</Link>
-        <img className='m-10 mt-20' src={burn} alt="image not found" />
+        <img className='m-10 mt-20' src={burn} alt=" not found" />
         <h1 className='text-2xl bold font-bold mt-20'>Get Burn</h1>
         <span>Let’s keep burning to achieve your goals, it hurts only temporarily, if you give up now you will be in pain forever</span>
 

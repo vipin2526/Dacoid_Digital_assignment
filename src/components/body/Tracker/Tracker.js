@@ -14,7 +14,7 @@ export const Tracker = () => {
     return (
         <div className='m-5 flex flex-col h-full center gap-6 '>
             <div className='text-xl font-bold text-center'>Workout Tracker</div>
-            <img src={value} alt="image not found" />
+            <img src={value} alt=" not found" />
             <div className="warning h-10 rounded-xl px-3 text-black  w-full flex center">
                 <img src={alert} className="inline-block" alt="not found" />
                 <div className='pl-2 text-sm space-y-0'> <span >You've burned fewer calories than yesterday. Time to get moving! </span></div>
