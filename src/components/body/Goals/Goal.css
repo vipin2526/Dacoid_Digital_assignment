@@ -1,0 +1,9 @@
+.choice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #F1F1F1;
+    padding-left: 20px;
+    font-weight: 600;
+}

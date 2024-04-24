@@ -1,0 +1,100 @@
+.warning {
+  height: 50px;
+  background: linear-gradient(90.07deg, rgba(129, 157, 255, 0.28) 5.94%, rgba(16, 16, 16, 0) 76.45%);
+}
+
+.menuBox {
+  display: flex;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-evenly;
+
+ div{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  div:hover {
+    background-color: linear-gradient(90.95deg, #c2cfff 0.79%, #809AFF 99.18%);
+  }
+
+
+}
+  .spaceBtn {
+    transform: translateY(-20px);
+    background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%);
+
+  }
+.serviceBox {
+  box-shadow: -4px 8px 25px -8px #00000026;
+  padding: 10px;
+}
+
+.workoutCard {
+  background: #8CB1FF99;
+  height: 120px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #8099FF;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  top: 2px;
+  left: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #000000;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px white;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
