@@ -16,7 +16,7 @@ export const Tracker = () => {
             <div className='text-xl font-bold text-center'>Workout Tracker</div>
             <img src={value} alt="image not found" />
             <div className="warning h-10 rounded-xl px-3 text-black  w-full flex center">
-                <img src={alert} className="inline-block" />
+                <img src={alert} className="inline-block" alt="not found" />
                 <div className='pl-2 text-sm space-y-0'> <span >You've burned fewer calories than yesterday. Time to get moving! </span></div>
             </div>
             <div className=" text-black  w-full flex">
@@ -24,7 +24,7 @@ export const Tracker = () => {
                 <span className="ml-auto">See more</span>
             </div>
             <div className="serviceBox h-20 rounded-xl px-3 text-black  w-full flex center">
-                <img src={img53} className="inline-block rounded-full " />
+                <img src={img53} className="inline-block rounded-full " alt="not found" />
                 <div className='pl-2 flex-1'> <div>Full Body Workout</div> <span className=' text-sm'>Today 3pm</span>
                 </div>
                 <label class="switch">
@@ -33,7 +33,7 @@ export const Tracker = () => {
                 </label>
             </div>
             <div className="serviceBox h-20 rounded-xl px-3 text-black  w-full flex center">
-                <img src={img54} className="inline-block rounded-full " />
+                <img src={img54} className="inline-block rounded-full " alt="not found" />
                 <div className='pl-2 flex-1'> <div>Upper Body Workout</div> <span className=' text-sm'>4 Feb, 3:30 pm</span>
                 </div>
                 <label class="switch">
@@ -50,24 +50,24 @@ export const Tracker = () => {
                     <div className=' text-sm'>Arms</div>
                     <div className=' text-sm'>Chest</div>
                 </div>
-                <img src={img55} className="inline-block rounded-full  h-100 w-100" />
+                <img src={img55} className="inline-block rounded-full  h-100 w-100" alt="not found" />
             </div>
             <div className="menuBox h-20 text-black  w-full flex center absolute gap-8">
                 <div className='rounded-full  '>
-                    <img src={m1} className="inline-block" />
+                    <img src={m1} className="inline-block" alt="not found" />
                 </div>
                 <div className='rounded-full  '>
-                    <img src={m2} className="inline-block " />
+                    <img src={m2} className="inline-block " alt="not found" />
                 </div>
                 <div className=' rounded-full  spaceBtn '>
-                    <img src={m3} className="inline-block " />
+                    <img src={m3} className="inline-block " alt="not found" />
                 </div>
 
                 <div className=' rounded-full   '>
-                    <img src={m4} className="inline-block " />
+                    <img src={m4} className="inline-block " alt="not found" />
                 </div>
                 <div className=' rounded-full  '>
-                    <img src={m5} className="inline-block " />
+                    <img src={m5} className="inline-block " alt="not found"  />
                 </div>
 
 
